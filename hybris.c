@@ -43,10 +43,10 @@
 
 #include <glib.h>
 
-#include <android/system/window.h>
-#include <android/hardware/lights.h>
-#include <android/hardware/fb.h>
-#include <android/hardware/sensors.h>
+#include <system/window.h>
+#include <hardware/lights.h>
+#include <hardware/fb.h>
+#include <hardware/sensors.h>
 
 static void mce_hybris_sensors_quit(void);
 
